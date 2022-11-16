@@ -157,9 +157,9 @@ footer{
     }
 }
 
-@media (max-width: 2560px){
+@media (min-width: 1760px){
     #cards{
-        min-width: 1760px;
+        max-width: 2560px;
         flex-direction: row;
         flex-wrap: wrap; 
     }
